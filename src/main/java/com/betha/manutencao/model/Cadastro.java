@@ -1,5 +1,7 @@
 package com.betha.manutencao.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,6 +17,7 @@ public class Cadastro {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
+  @JsonProperty("_id")
   private Long id;
 
   @Column(name = "Item", length = 200, nullable = false)

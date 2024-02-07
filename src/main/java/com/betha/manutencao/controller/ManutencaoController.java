@@ -12,7 +12,7 @@ import com.betha.manutencao.repository.CadastroRepository;
 import lombok.AllArgsConstructor;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api/lista")
 @AllArgsConstructor
 public class ManutencaoController {
 

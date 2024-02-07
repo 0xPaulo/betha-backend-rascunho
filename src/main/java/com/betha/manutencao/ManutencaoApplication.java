@@ -8,9 +8,6 @@ import org.springframework.context.annotation.Bean;
 import com.betha.manutencao.model.Cadastro;
 import com.betha.manutencao.repository.CadastroRepository;
 
-// import com.betha.manutencao.model.Cadastro;
-// import com.betha.manutencao.repository.CadastroRepository;
-
 @SpringBootApplication
 public class ManutencaoApplication {
 
@@ -26,7 +23,6 @@ public class ManutencaoApplication {
 			c.setName("Teste - 1 ");
 			c.setDefeito("Bateria fraca");
 			cadastroRepository.save(c);
-
 		};
 
 	}
