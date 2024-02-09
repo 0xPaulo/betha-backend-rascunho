@@ -3,6 +3,6 @@
 # RUN mvn clean package -DskipTests
 
 # FROM openjdk:17.0.1-jdk-slim
-# COPY --from=Build /target/papaya-0.0.1-SNAPSHOT.jar papaya.jar
+# COPY --from=Build /target/teste-0.0.1-SNAPSHOT.jar teste.jar
 # EXPOSE 8080
-# ENTRYPOINT [ "java","-jar","papaya.jar" ]
+# ENTRYPOINT [ "java","-jar","teste.jar" ]
